@@ -5,5 +5,5 @@ ThisBuild / scalaVersion := "2.13.8"
 lazy val root = (project in file("."))
   .settings(
     name := "YetAnotherJsonLib",
-    idePackagePrefix := Some("ru.red")
+    idePackagePrefix := Some("ru.red.json")
   )
